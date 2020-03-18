@@ -29,21 +29,21 @@ const CoronaList = props => {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-      <div className="boxes" style={{ width: "100vw", flexWrap: "wrap", margin: "0!important",  display: "flex", justifyContent: "space-between"}}>
+      <div className="boxes" style={{flexWrap: "wrap", margin: "0!important",  display: "flex", justifyContent: "space-between"}}>
           {props.data.Countries.map(item => (
-            <div>
+            <div className="test">
               <Card className={classes.root} variant="outlined">
               <CardContent>
-              <div className="box">
+              <div className="box" >
               <Typography
                 className={classes.title}
                 color="textSecondary"
                 gutterBottom
               >
-                <h2 style={{fontSize: "1rem"}}>{item.Country}</h2>
-                <p> Total Confirmed Cases: {item.TotalConfirmed}</p>
-                <p> Total Deaths: {item.TotalDeaths}</p>
-                <p> Total Recovered Cases: {item.TotalRecovered}</p>
+                <div style={{width: "250px", wordWrap: "break-word"}} ><h2 style={{fontSize: "1.4rem"}}>{item.Country}</h2></div>
+                <p style={{fontSize:"1rem"}}> Total Confirmed Cases: {item.TotalConfirmed}</p>
+                <p style={{fontSize:"1rem"}}> Total Deaths: {item.TotalDeaths}</p>
+                <p style={{fontSize:"1rem"}}> Total Recovered Cases: {item.TotalRecovered}</p>
                 </Typography>
               </div>
               </CardContent>

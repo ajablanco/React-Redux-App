@@ -38,9 +38,14 @@
 }
 
 div.boxes {
-  margin: 0!important;
+  margin: 2%;
 }
 
-.error {
-  color: red;
+div.test {
+  margin-bottom: 2%;
+}
+
+.MuiPaper-root.MuiCard-root.makeStyles-root-33.MuiPaper-outlined.MuiPaper-rounded {
+  height: 210px;
+  background-color: whitesmoke;
 }
