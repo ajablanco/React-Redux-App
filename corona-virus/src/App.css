@@ -49,3 +49,8 @@ div.test {
   height: 210px;
   background-color: whitesmoke;
 }
+
+h2 {
+  margin-top: 0;
+}
+ 
