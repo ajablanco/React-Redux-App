@@ -17,7 +17,7 @@ const Form = props => {
     ) : (
         // <button onClick={handleGetData}>Get Data</button>
         <Button onClick={handleGetData} variant="outlined" color="secondary">
-        FETCH DATA
+        VIEW BY COUNTRY
       </Button>
         )}
     </>

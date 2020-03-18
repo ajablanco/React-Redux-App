@@ -16,7 +16,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <h1>COVID-19</h1>
-        <h2> Confirmed Cases, Deaths, and Recoveries by Country</h2>
+        <h2>CONFIRMED CASES  |  TOTAL DEATHS  |  RECOVERED CASES</h2>
         <Form />
         <CoronaList />
       </div>
