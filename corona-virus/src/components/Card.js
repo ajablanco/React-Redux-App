@@ -2,9 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
@@ -40,10 +38,10 @@ const CoronaList = props => {
                 color="textSecondary"
                 gutterBottom
               >
-                <div style={{width: "250px", wordWrap: "break-word"}} ><h2 style={{fontSize: "1.4rem"}}>{item.Country}</h2></div>
-                <p style={{fontSize:"1rem"}}> Total Confirmed Cases: {item.TotalConfirmed}</p>
-                <p style={{fontSize:"1rem"}}> Total Deaths: {item.TotalDeaths}</p>
-                <p style={{fontSize:"1rem"}}> Total Recovered Cases: {item.TotalRecovered}</p>
+                <div style={{width: "250px", wordWrap: "break-word", marginTop: "1%"}} ><h2 style={{fontSize: "1.5rem"}}>{item.Country}</h2></div>
+                <p style={{fontSize:"1.1rem", marginTop: "10%"}}> Total Confirmed Cases: {item.TotalConfirmed}</p>
+                <p style={{fontSize:"1.1rem"}}> Total Deaths: {item.TotalDeaths}</p>
+                <p style={{fontSize:"1.1rem"}}> Total Recovered Cases: {item.TotalRecovered}</p>
                 </Typography>
               </div>
               </CardContent>

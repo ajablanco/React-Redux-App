@@ -15,8 +15,8 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <h1>COVID-19</h1>
-        <h2>CONFIRMED CASES  |  TOTAL DEATHS  |  RECOVERED CASES</h2>
+        <h1 style={{fontSize: "2.2rem"}}>COVID-19</h1>
+        <h2 style={{fontSize: "1.7rem"}}> CONFIRMED CASES  |  TOTAL DEATHS  |  RECOVERED CASES </h2>
         <Form />
         <CoronaList />
       </div>
